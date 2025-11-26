@@ -19,6 +19,18 @@
   "file_finder": {
     "file_icons": true
   },
+  "git_panel": {
+    "button": true,
+    "dock": "right",
+    "default_width": 400,
+    "status_style": "icon",
+    "fallback_branch_name": "main",
+    "sort_by_path": false,
+    "collapse_untracked_diff": false,
+    "scrollbar": {
+      "show": null
+    }
+  },
 
   "colorize_brackets": true,
   "hover_popover_delay": 200,
