@@ -144,7 +144,7 @@
             "color": "#df3a08"
           },
           "number": {
-            "color": "#ff92df"
+            "color": "#D1EBA0"
           },
           "boolean": {
             "color": "#b5ea53"
@@ -180,7 +180,7 @@
             "color": "#FFCB6B"
           },
           "function.method": {
-            "color": "#FFCB6B"
+            "color": "#FFDD6B"
           },
           "function.definition": {
             "color": "#FFCB6B"
@@ -213,10 +213,10 @@
             "color": "#f5f12dda"
           },
           "property": {
-            "color": "#9876AA"
+            "color": "#8776AB"
           },
           "enum": {
-            "color": "#FFCB6B"
+            "color": "#ffb0b0"
           },
           "operator": {
             "color": "#CC7832"

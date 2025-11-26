@@ -16,14 +16,7 @@
     "metrics": false
   },
   "buffer_font_weight": 400.0,
-  "tabs": {
-    "close_position": "right",
-    "file_icons": true,
-    "git_status": true,
-    "activate_on_close": "history",
-    "show_close_button": "hover",
-    "show_diagnostics": "all"
-  },
+
   "file_finder": {
     "file_icons": true
   },
@@ -136,5 +129,13 @@
       "min_column": 0,
       "max_severity": null
     }
+  },
+  "tabs": {
+    "git_status": true, // Color to show git status
+    "close_position": "right", // Close button position (left, right, hidden)
+    "show_close_button": "hover", // Close button shown (hover, always, hidden)
+    "file_icons": true, // Icon showing file type
+    // Show diagnostics in file icon (off, errors, all). Requires file_icons=true
+    "show_diagnostics": "all"
   }
 }
