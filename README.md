@@ -8,3 +8,4 @@ Problems comparing to vscode:
 4. No rainbow tokens (should be resolved soon): https://github.com/zed-industries/zed/pull/43172
 5. Self {...} is not special
 6. Need more portals in Hyprland - no way to add default picker app (eg Firefox as default browser or nautilus as file manager)
+7. No smooth scrolling https://github.com/zed-industries/zed/issues/4355
