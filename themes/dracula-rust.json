@@ -39,7 +39,7 @@
         "border.selected": "#16B67388",
         "border.transparent": "#171717",
         "text": "#d4d4d4",
-        "text.muted": "#808080",
+        "text.muted": "#d4d4d4",
         "text.accent": "#FFCB6B",
         "text.disabled": "#606060",
         "text.placeholder": "#606060",
