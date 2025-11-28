@@ -49,9 +49,9 @@
 
   "colorize_brackets": true,
   "hover_popover_delay": 200,
-  "fast_scroll_sensitivity": 5.0,
+  "fast_scroll_sensitivity": 4.0,
   "buffer_line_height": {
-    "custom": 1.5
+    "custom": 2
   },
   "use_system_prompts": false,
   "use_system_path_prompts": false,
@@ -70,7 +70,7 @@
   "ui_font_size": 16.0,
   "buffer_font_size": 14.0,
 
-  "scroll_sensitivity": 4.0,
+  "scroll_sensitivity": 2.0,
   ///
   "project_panel": {
     "button": false,
