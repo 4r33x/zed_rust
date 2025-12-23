@@ -9,21 +9,47 @@
 {
   "disable_ai": true,
   "features": {
-    "edit_prediction_provider": "none"
+    "edit_prediction_provider": "none",
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
+  },
+
+  "lsp": {
+    "rust-analyzer": {
+      "settings": {},
+
+      "initialization_options": {
+        "cargo": {
+          "features": "all",
+        },
+        "checkOnSave": "clippy",
+        "imports": {
+          "preferNoStd": true,
+        },
+        "inlayHints": {
+          "maxLength": null,
+          "lifetimeElisionHints": {
+            "enable": "skip_trivial",
+            "useParameterNames": true,
+          },
+          "closureReturnTypeHints": {
+            "enable": "always",
+          },
+        },
+      },
+    },
   },
   "buffer_font_weight": 400.0,
 
   "file_finder": {
-    "file_icons": true
+    "file_icons": true,
   },
   "git": {
     "inline_blame": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "git_panel": {
     "button": true,
@@ -34,8 +60,8 @@
     "sort_by_path": false,
     "collapse_untracked_diff": false,
     "scrollbar": {
-      "show": null
-    }
+      "show": null,
+    },
   },
 
   "search": {
@@ -44,14 +70,14 @@
     "case_sensitive": false,
     "include_ignored": false,
     "regex": false,
-    "center_on_match": true
+    "center_on_match": true,
   },
 
   "colorize_brackets": true,
   "hover_popover_delay": 200,
   "fast_scroll_sensitivity": 4.0,
   "buffer_line_height": {
-    "custom": 2
+    "custom": 2,
   },
   "use_system_prompts": false,
   "use_system_path_prompts": false,
@@ -59,13 +85,13 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Dracula For Rust"
+    "dark": "Dracula For Rust",
   },
   "ui_font_family": "Maple Mono NF",
   "buffer_font_family": "Maple Mono NF",
   "buffer_font_features": {
     "calt": true,
-    "liga": true
+    "liga": true,
   },
   "ui_font_size": 16.0,
   "buffer_font_size": 14.0,
@@ -81,10 +107,10 @@
     "file_icons": false, // Show/hide file icons
     "folder_icons": true, // Show/hide folder icons
     "git_status": true, // Indicate new/updated files"
-    "sort_mode": "mixed"
+    "sort_mode": "mixed",
   },
   "inlay_hints": {
-    "enabled": true
+    "enabled": true,
   },
 
   "terminal": {
@@ -98,8 +124,8 @@
     "detect_venv": {
       "on": {
         "directories": [".env", "env", ".venv", "venv"],
-        "activate_script": "default"
-      }
+        "activate_script": "default",
+      },
     },
     "env": {},
     "line_height": "comfortable",
@@ -109,16 +135,16 @@
     "shell": {
       "with_arguments": {
         "program": "fish",
-        "args": []
-      }
+        "args": [],
+      },
     },
     "toolbar": {
-      "breadcrumbs": false
+      "breadcrumbs": false,
     },
     "working_directory": "current_project_directory",
     "scrollbar": {
-      "show": null
-    }
+      "show": null,
+    },
   },
 
   "diagnostics": {
@@ -127,8 +153,8 @@
       "update_debounce_ms": 150,
       "padding": 4,
       "min_column": 0,
-      "max_severity": null
-    }
+      "max_severity": null,
+    },
   },
   "tabs": {
     "git_status": true, // Color to show git status
@@ -136,6 +162,6 @@
     "show_close_button": "hover", // Close button shown (hover, always, hidden)
     "file_icons": true, // Icon showing file type
     // Show diagnostics in file icon (off, errors, all). Requires file_icons=true
-    "show_diagnostics": "all"
-  }
+    "show_diagnostics": "all",
+  },
 }
