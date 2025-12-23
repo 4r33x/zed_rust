@@ -24,7 +24,9 @@
         "cargo": {
           "features": "all",
         },
-        "checkOnSave": "clippy",
+        "check": {
+          "command": "clippy", // rust-analyzer.check.command (default: "check")
+        },
         "imports": {
           "preferNoStd": true,
         },
