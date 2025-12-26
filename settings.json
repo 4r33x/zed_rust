@@ -21,6 +21,9 @@
       "settings": {},
 
       "initialization_options": {
+        "rustfmt": {
+          "extraArgs": ["+nightly"],
+        },
         "cargo": {
           "features": "all",
         },
