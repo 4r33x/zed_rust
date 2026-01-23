@@ -21,14 +21,27 @@
       "settings": {},
 
       "initialization_options": {
+        "server": {
+          "extraEnv": {
+            "RUSTUP_TOOLCHAIN": "nightly",
+          },
+        },
         "rustfmt": {
           "extraArgs": ["+nightly"],
         },
         "cargo": {
-          "features": "all",
+          //"features": "all",
+          // do not do this
+          // "extraArgs": ["+nightly"],
         },
         "check": {
           "command": "clippy", // rust-analyzer.check.command (default: "check")
+          // "overrideCommand": [
+          //   "cargo",
+          //   "+nightly",
+          //   "clippy",
+          //   "--message-format=json",
+          // ],
         },
         "imports": {
           "preferNoStd": true,
@@ -57,6 +70,7 @@
     },
   },
   "git_panel": {
+    "tree_view": true,
     "button": true,
     "dock": "right",
     "default_width": 400,
